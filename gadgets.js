@@ -1,6 +1,6 @@
 function generateProductCards(data) {
   const productContainer = document.getElementById("products");
-  productContainer.classList.add("product-container"); // Add CSS class for flex display
+  productContainer.classList.add("product-container"); 
   data.forEach((product) => {
     const card = document.createElement("div");
     card.classList.add("product-card");
